@@ -11,7 +11,7 @@ public class StringMain {
 		 char ch ='m';
 		 char ch2 ='s';
 		 System.out.println("Length : "+obj.Length(str1));
-		 String concat = obj.Concat(str1,str2);
+
 		 System.out.println("Concat : "+obj.Concat(str1,str2));
 		 System.out.println("IsEmpty : "+obj.IsEmpty(obj.Length(str1)));
 		 System.out.println("StrtoUpper : "+obj.StrtoUpperCase(str1));
