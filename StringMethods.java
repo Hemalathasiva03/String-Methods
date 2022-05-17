@@ -4,6 +4,10 @@ import java.util.*;
   public class StringMethods 
   {
     
+	private String str2;
+	public StringMethods(String str2){
+		this.str2 = str2;
+	}
     //1.string  length return total length  
     public int Length(String str){
   	int i = 0;
@@ -16,7 +20,7 @@ import java.util.*;
   }
   
   //2.String concat of the two String
-  public String Concat(String str1,String str2) 
+  public String Concat(String str1) 
   {
       String concat =(str1+str2);
   		  return concat;
@@ -70,7 +74,7 @@ import java.util.*;
   }
 	  
 	 //6.String Compare return boolean
-  public boolean Compare(String str1, String str2)
+  public boolean Compare(String str1)
   {
   	if(str1==null || str2==null)
   	{
@@ -92,8 +96,8 @@ import java.util.*;
   //7.String ObjectToString return String
   public String ObjectToString() 
   {
-      StringMethods obj = new StringMethods();  
-  		return ((obj == null)? null : obj.toString()); 
+      StringMain a = new StringMain();  
+  		return ((a == null)? null : a.toString()); 
 	 }
 	 
 	 //8.String StartWith return boolean
